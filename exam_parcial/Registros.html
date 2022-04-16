@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Registro de Perros</title>
+        <link rel="stylesheet" href="stilo_formregistrar.css">
+    </head>
+    <body>
+    
+        <form action="registra.php" method="post"   > 
+
+            <h1>Registro de Usuarios </h1>
+            <div>
+                <p>ID</p>
+                <Input name = "identificador" Type="text" id="cod" required pattern="[0-9]"  placeholder="ID del usuario" title="Solo numeros. " ></p>
+                <p>Nombre de Usuario</p> 
+                <Input name = "username" Type="text" id="nomv" required pattern="[A-Za-z]{3,40}"  placeholder="Nombre de usuario/vet" title="Solo letra. Tamaño minimo : 3. Tamaño máximo : 40 " ></p>
+               <p>Contraseña </p>
+               <input type="password" name="password" id = "cod" maxlength="100" minlength="4" required  placeholder="Contraseña" title="Solo numeros. Tamaño unico : 8"></p>
+                   <p>Rol id</p> 
+                   <Select name = "rol_id" id="ras"required>
+                   <Option value = "1"> Veterinario 
+                   <Option value = "2"> Usuario
+                </Select></P>
+               <br> 
+               <br>
+                 <input Type = "submit"  value="Registrar" id="button">  
+            </div>
+        </form> 
+
+    
+ 
+    </body>
+</html>

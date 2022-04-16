@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Registro de Perros</title>
+        <link rel="stylesheet" href="stilo_formregistrar.css">
+    </head>
+    <body>
+    
+        <form action="Registrar_perro.php" method="post"   > 
+
+            <h1>Registro de Perros </h1>
+            <div>
+                <p>Ingresar Nombre del veterinario</p> 
+                <Input name = "Nombrev" Type="text" id="nomv" required pattern="[A-Za-z]{2,40}"  placeholder="Nombre de veterinario" title="Solo letra. Tamaño minimo : 3. Tamaño máximo : 40 "  ></p>
+               <p>Ingresar Codigo de la mascota </p>
+               <Input name = "Codigo" Type Text id="cod" required pattern="[0-9]{8}"  placeholder="Codigo de la mascota" title="Solo numeros. Tamaño unico : 8" ></p>
+                   <p>Ingresar Nombre de la mascota</p> 
+               <Input name = "Nombre" Type Text id="nom" required pattern="[A-Za-z]{3,40}"  placeholder="Nombre de mascota" title="Solo letra. Tamaño minimo : 3. Tamaño máximo : 40 " ></p>
+                  <p>Fecha de Nacimiento de la mascota</p>  
+              <Input name= "FechNac" Type = "Date" id="fec" required ></p>
+              <p>Genero</p>  
+              <p><Input name="Genero" Type = "Radio" value ="Macho" id="ma"> Macho
+             <Input name= "Genero" Type = "Radio" value="Hembra" id="hem"> Hembra</P>
+              <p>Seleccione Raza</p> 
+              <Select name = "Raza" id="ras"required>
+              <Option value = "Pitbull"> Pitbull 
+              <Option value = "Bulldog"> Bulldog 
+              <Option value = "Shichu"> Shichu 
+               <Option value = "Pequines"> Pequines 
+                <Option value = "San Bernardo"> San Bernardo 
+               <Option value = "Chiguahua"> Chiguahua 
+               </Select></P>
+                <Input Type = "file" name = "Foto" id="b_foto"required> 
+                <hr>
+             <h2>Consulta</h2> 
+             <p>Fecha de la consulta</p>  
+             <Input name= "FechCon" Type = "Date" id="fecha" required ></p>
+             <p>Radiografias</p>
+             <Input Type = "file" name = "Foto2" id="r_foto" required > 
+             <p>Diagnostico</p>
+             <Input name = "Diagnostico" Type Text id="dia"  required pattern="([A-Za-z]{1,250}(\s)*)+"  placeholder="Diagnostico s" title="Solo letra. Tamaño minimo : 3. con espacios" ></p>
+                <p>Analisis de sangre</p>
+                <Input name = "Analisis" Type Text id="ana"  required pattern="([A-Za-z]{1,250}(\s)*)+" placeholder="Analisis de sangre" title="Solo letra. Tamaño minimo : 3. con espacios "></p>
+                <p>Medicamentos</p>
+                <Input name = "Medicamentos" Type Text id="medi" required pattern="([A-Za-z]{1,250}(\s)*)+" placeholder="Medicamentos" title="Solo letra. Tamaño minimo : 3.con espacios "></p>
+                <p>Costo de la consulta</p>
+                <Input name = "Costo" Type Text id="cost"   required pattern="[0-9]{1,40}"  placeholder="Costo" title="Solo numeros. Tamaño minimo : 1"></p>
+                <p>Pago</p>  
+                <p><Input name="Pago" Type = "Radio" value ="Canselado" id="si"> SI
+                <Input name= "Pago" Type = "Radio" value="Deuda" id="no"> NO</P>
+               <br>
+               <br>
+                 <input Type = "submit"  value="Registrar" id="button">  
+            </div>
+        </form> 
+
+    
+ 
+    </body>
+</html>
+

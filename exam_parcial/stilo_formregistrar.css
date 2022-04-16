@@ -1,0 +1,168 @@
+body{ 
+    margin: 50px ;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+div{
+    background-color: aliceblue;
+    background-image: url('imagen/img3.jpg');
+    border-radius: 15%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+h1{
+    size: center;
+    font:bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-shadow:-2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+p{
+    font-style: inherit;
+    font-size: 40px;
+    text-align: center; 
+}
+#cod{
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+}
+#nom{
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+}
+#fec{
+    margin-left: 770px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+}
+#ma{
+
+    text-align: center;
+    margin-left: 40px;
+}
+#hem{
+
+    text-align: center;
+    margin-left: 150px;
+}
+#ras{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 800px;
+}
+#nomv{
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+#b_foto{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 800px;
+}
+#button{
+    border: none;
+    border-radius: 25%;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 800px;
+    text-align: center;
+    background-color: rgb(8, 245, 59);
+}
+#fecha{    
+
+    text-align: center;
+    margin-left: 740px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#r_foto{
+
+    text-align: center;
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+#dia{
+
+    text-align: center;
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#ana{
+
+    text-align: center;
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#medi{
+    text-align: center;
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#cost{
+    text-align: center;
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#si{
+    text-align: center;
+    margin-left: 40px;
+}
+#no{
+    text-align: center;
+    margin-left: 150px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+#pas{
+    text-align: center;
+    margin-left: 720px;
+    border-width: 10px;
+    border-radius: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+}
